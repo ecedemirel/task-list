@@ -1,6 +1,6 @@
 # Simple Task List Web App with Vue
 
-##^# Project setup
+### Project setup
 ```
 npm install
 ```
