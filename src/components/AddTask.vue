@@ -6,12 +6,7 @@
     </div>
     <div class="form-control">
       <label>Day & Time</label>
-      <input
-        type="text"
-        v-model="day"
-        name="day"
-        placeholder="Add Day & Time"
-      />
+      <input type="text" v-model="day" name="day" placeholder="Add Day & Time" />
     </div>
     <div class="form-control form-control-check">
       <label>Set Reminder</label>
@@ -63,6 +58,7 @@ export default {
 .color {
   background-color: green;
 }
+
 .form-control {
   margin: 20px 0;
 }

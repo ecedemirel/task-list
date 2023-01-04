@@ -1,8 +1,5 @@
 <template>
-  <div
-    @dblclick="$emit('toggle-reminder', task.id)"
-    :class="[task.reminder ? 'reminder' : '', 'task']"
-  >
+  <div @dblclick="$emit('toggle-reminder', task.id)" :class="[task.reminder ? 'reminder' : '', 'task']">
     <h3>
       <span>
         <i v-if="task.reminder" class="fas fa-clock"></i>

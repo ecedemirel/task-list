@@ -1,12 +1,8 @@
 <template>
   <header>
     <h1>{{ title }}</h1>
-    <Button
-      @btn-click="$emit('btn-click')"
-      :text="showAddTaskBtn ? 'Close' : 'Add Task'"
-      :icon="showAddTaskBtn ? 'fa fa-angle-up' : 'fa fa-angle-down'"
-      :color="showAddTaskBtn ? 'red' : 'green'"
-    />
+    <Button @btn-click="$emit('btn-click')" :text="showAddTaskBtn ? 'Close' : 'Add Task'"
+      :icon="showAddTaskBtn ? 'fa fa-angle-up' : 'fa fa-angle-down'" :color="showAddTaskBtn ? 'red' : 'green'" />
   </header>
 </template>
 

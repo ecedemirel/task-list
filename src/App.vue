@@ -1,10 +1,6 @@
 <template>
   <div class="container">
-    <Header
-      @btn-click="btnClick"
-      title="Task Tracker"
-      :showAddTaskBtn="showAddTask"
-    />
+    <Header @btn-click="btnClick" title="Task Tracker" :showAddTaskBtn="showAddTask" />
 
     <router-view :showAddTask="showAddTask"></router-view>
     <Footer />
